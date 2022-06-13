@@ -1,12 +1,40 @@
 h1 {
-    font-size: 65px;
-    color:orange
+  font-family: sans-serif;
+  font-size: 65px;
+  color: orange;
 }
 
-ul{
+ul {
+  background-color: aquamarine;
+  padding: 50px;
+}
+
+p {
+  font-weight: 600px;
+  font-size: 60px;
+  font-weight: 3em;
+  line-height: 100%;
+  text-align: center;
+  text-decoration-line: overline ;
+  text-decoration-color: crimson;
+  text-decoration-style: wavy
+
+
+  
+
+}
+body {
+  font-size: 16px;
+  font-family: "Lucida Sans";
+}
+#Amarelo {
+    background-color: yellow;
+}
+
+#Vermelho {
     background-color: red;
 }
 
-.background{
-    background-color: blue;
+#Marrom {
+    background-color: brown;
 }
