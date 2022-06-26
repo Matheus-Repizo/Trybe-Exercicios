@@ -107,3 +107,6 @@ for (let iDiv = 0; iDiv < arrayEmpty2.length; iDiv += 1) {
     console.log(arrayEmpty2[iDiv] / 2);
 
 };
+
+
+
