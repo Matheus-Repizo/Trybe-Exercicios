@@ -1,0 +1,14 @@
+const cabeçalho = document.getElementById('header-container');
+cabeçalho.style.backgroundColor='#00B069';
+const urgente = document.getElementsByClassName('emergency-tasks');
+urgente[0].style.backgroundColor = "#FF9F84"
+const urgenteCabeçalho = document.querySelectorAll('.emergency-task,h3');
+urgenteCabeçalho[0].style.backgroundColor = '#A500F3';
+urgenteCabeçalho[1].style.backgroundColor = '#A500F3';
+const naoUrgente = document.querySelector('.no-emergency-tasks');
+naoUrgente.style.backgroundColor = '#F9DB5E'
+const naoUrgenteCabeçalho = document.querySelectorAll('.no-emergency-tasks h3');
+naoUrgenteCabeçalho[0].style.backgroundColor = 'black'
+naoUrgenteCabeçalho[1].style.backgroundColor = 'black'
+const rodapé = document.querySelector('#footer-container');
+rodapé.style.backgroundColor = '#003533'
