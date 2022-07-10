@@ -75,6 +75,9 @@ label {
   background-color: #44a1a0;
   font-weight: bolder;
   font-size: 20px;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
 }
 .form-container input[type="date"] {
   border-radius: 5px;
@@ -93,6 +96,9 @@ label {
   background-color: #fffffa;
   font-weight: bolder;
   font-size: 20px;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
 }
 #btn-send:hover {
   opacity: 80%;
