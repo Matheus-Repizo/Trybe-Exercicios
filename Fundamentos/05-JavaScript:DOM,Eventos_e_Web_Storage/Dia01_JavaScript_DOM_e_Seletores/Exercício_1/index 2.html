@@ -1,0 +1,28 @@
+<!-- Utilizando o mesmo template de exercício anterior:
+
+Adicione uma classe igual para os dois parágrafos.
+Recupere os seus parágrafos via código JavaScript, usando a função getElementsByClassName;
+Altere algum estilo do primeiro deles.  -->
+<!-- Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName.  -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class = "paragraphs">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class = "paragraphs">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = "Avangers";
+      document.getElementById("second-paragraph").innerText = "Hulk, Homem de Ferro, Capitão América,Viuva Negra, Gavião Arqueiro, Thor, entre outros!"
+      document.getElementById("subtitle").innerText = "Integrantes"
+      let paragraphs = document.getElementsByClassName("paragraphs")[0];
+      paragraphs.style.color = "blue";
+      let tag = document.getElementsByTagName("h4")[0];
+      tag.style.color = "red"
+    </script>
+  </body>
+</html>

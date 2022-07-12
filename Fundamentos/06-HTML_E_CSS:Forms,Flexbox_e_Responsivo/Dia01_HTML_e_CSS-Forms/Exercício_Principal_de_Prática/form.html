@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>Trybe Trip</h1>
+      <p>
+        <em>
+          Quer concorrer a uma viagem incrível, sem gastar nada e podendo
+          realizar aquele desejo de conhecer um lugar dos seus sonhos?<br />Preencha
+          o formulário Trybe Trip e a melhor resposta para a nossa pergunta irá
+          contemplar esta viagem!</em
+        >
+      </p>
+    </header>
+    <main>
+      <form action="" method="get" class="form-container">
+        <section class="form-content">
+          <label for="name-user">Nome</label><br />
+          <input type="text" name="name" value="" id="name-user" />
+        </section>
+        <section class="form-content">
+          <label for="email-adreess">E-mail</label><br />
+          <input type="email" name="e-mail" id="email-adreess" />
+        </section>
+        <section class="form-content">
+          <fieldset>
+            <legend>Em qual lugar seria o ideal para você?</legend>
+            <input type="radio" name="local" id="city" />
+            <label for="city">Cidade</label>
+            <input type="radio" name="local" id="camp" />
+            <label for="camp">Campo</label>
+            <input type="radio" name="local" id="beach" />
+            <label for="beach">Praia</label>
+            <input type="radio" name="local" id="montains" />
+            <label for="montains">Montanhas</label>
+          </fieldset>
+        </section>
+        <section class="form-content">
+          <label for="text-area"
+            >Porque você seria a pessoa Desenvolvedora a ganhar o concurso Trybe
+            Trip?</label
+          ><br />
+          <textarea
+            data-ls-module="charCounter"
+            maxlength="100"
+            name="text"
+            id="text-area"
+            placeholder="Descreva a sua afirmação em até 500 palavras."
+          ></textarea>
+        </section>
+        <section class="form-content">
+          <label for="date-trip"
+            >Qual a melhor data para que possa realizar esta viagem?</label
+          >
+          <input type="date" name="date" id="date-trip" />
+        </section>
+        <section class="form-content">
+          <input
+            type="checkbox"
+            name="checkTripInformation"
+            id="checkbox1"
+            value="info-ok"
+          />
+          <label for="checkbox1"
+            >Gostaria de receber outras incríveis oportunidades oferecidas pela
+            Trybe?</label
+          ><br />
+          <input
+            type="checkbox"
+            name="checkTripAceppt"
+            id="checkbox2"
+            value="aceppt-ok"
+          />
+          <label for="checkbox2"
+            >Concordo que imagens das minhas férias poderão ser usadas na
+            divulgação de concursos futuros.</label
+          >
+        </section>
+        <section class="form-content">
+          <button type="submit" id="btn-send" disabled>Enviar</button>
+          <button type="reset" id="btn-clear">Limpar</button>
+        </section>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
